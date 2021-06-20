@@ -10,7 +10,7 @@ import java.util.Map;
 @EnhancedcombatModElements.ModElement.Tag
 public class DashProcedureProcedure extends EnhancedcombatModElements.ModElement {
 	public DashProcedureProcedure(EnhancedcombatModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -20,8 +20,8 @@ public class DashProcedureProcedure extends EnhancedcombatModElements.ModElement
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		double XVel = 0;
 		double ZVel = 0;
+		double XVel = 0;
 		if (((entity.getMotion().getX()) == 0)) {
 			XVel = (double) 0;
 		} else if (((entity.getMotion().getX()) > 0)) {

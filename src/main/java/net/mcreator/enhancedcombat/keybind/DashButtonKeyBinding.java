@@ -92,6 +92,7 @@ public class DashButtonKeyBinding extends EnhancedcombatModElements.ModElement {
 		if (type == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				DashProcedureProcedure.executeProcedure($_dependencies);
 			}
 		}

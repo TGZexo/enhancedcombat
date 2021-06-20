@@ -2,9 +2,18 @@
   "id_map": {},
   "mod_elements": [
     {
+      "name": "DashButton",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dash_button"
+    },
+    {
       "name": "DashProcedure",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -17,15 +26,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "DashButton",
-      "type": "keybind",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dash_button"
     }
   ],
   "variable_elements": [],
