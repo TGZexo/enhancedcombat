@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F",
+    "keyBindingName": "Dash Button",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "DashProcedure"
+    }
+  }
+}
