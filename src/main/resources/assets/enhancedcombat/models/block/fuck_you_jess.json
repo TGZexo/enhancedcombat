@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancedcombat:blocks/fuckyoujess",
+    "up": "enhancedcombat:blocks/fuckyoujess",
+    "north": "enhancedcombat:blocks/fuckyoujess",
+    "east": "enhancedcombat:blocks/fuckyoujess",
+    "south": "enhancedcombat:blocks/fuckyoujess",
+    "west": "enhancedcombat:blocks/fuckyoujess",
+    "particle": "enhancedcombat:blocks/fuckyoujess"
+  }
+}

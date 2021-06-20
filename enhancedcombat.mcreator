@@ -9,14 +9,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test"
+    },
+    {
+      "name": "FuckYouJess",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuck_you_jess"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.enhancedcombat.test": "Test"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
